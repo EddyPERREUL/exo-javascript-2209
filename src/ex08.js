@@ -3,7 +3,7 @@
 // la fonction isPalindrome à comme paramètre un string
 // Si tenet à l'envers est égale tenet alors true
 
-function isPalindrome(string) {
+const isPalindrome = (string) => {
     /* Sur plusieurs lignes*/
 
     //let splitString = string.split("")

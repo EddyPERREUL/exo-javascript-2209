@@ -1,19 +1,19 @@
 //Ecrivez 4 fonctions add, sub, mul, div qui prennent 2 nombres en paramètres et qui retournent le resultat de l'operation attendue.
 
 //la fonction doit additioner
-function add(nb, nb1) {
+const add = (nb, nb1) => {
     return nb + nb1
 }
 //la fonction doit soustraire
-function sub(nb, nb1) {
+const sub = (nb, nb1) => {
     return nb - nb1
 }
 //la fonction doit multiplier
-function mul(nb, nb1) {
+const mul = (nb, nb1) => {
     return nb * nb1
 }
 //la fonction doit diviser
-function div(nb, nb1) {
+const div = (nb, nb1) => {
     return nb / nb1
 }
 

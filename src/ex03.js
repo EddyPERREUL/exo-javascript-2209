@@ -8,7 +8,7 @@
 
 //l'affiche devrait être mis en place par = console.log(4,5)
 
-function count(min, max, step) {
+const count = (min, max, step) => {
         for (let i = min ; i < max ; i += step){
             console.log(i)
     }

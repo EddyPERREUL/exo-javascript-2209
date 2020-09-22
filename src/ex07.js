@@ -1,37 +1,36 @@
 //En partant de l'exercice 06 ecrivez une fonction calc qui prend 3 paramètres: 1 string qui correspondra à l'opérateur arithmétique et 2 nombres sur lesquels on appliquera l'opérateur. La fonction calc devra utiliser les fonctions définies dans l'exercice précédent.
 
 //la fonction doit additioner
-function add(nb, nb1) {
+const add = (nb, nb1) => {
     return nb + nb1
 }
 //la fonction doit soustraire
-function sub(nb, nb1) {
+const sub = (nb, nb1) => {
     return nb - nb1
 }
 //la fonction doit multiplier
-function mul(nb, nb1) {
+const mul = (nb, nb1) => {
     return nb * nb1
 }
 //la fonction doit diviser
-function div(nb, nb1) {
+const div = (nb, nb1) => {
     return nb / nb1
 }
-
 //fonction qui calcul ( opérateur, nombre 1, nombre 2)
-function calc (op, a, b) {
+const calc = (op, a, b) => {
     switch (op) {
         case '+' :
             return add(a,b)
-            break
+            //break, n'est plus necessaire dans une fonction
         case '-' :
             return sub(a,b)
-            break
         case '*' :
             return mul(a,b)
-            break
         case '/' :
             return div(a,b)  
-            break  
+    // ci-dessous une condition par defaut en cas d'oublie de l'opérateur 
+        default: 
+            console.log("Error: Unknown operator")
     }
 }
 
