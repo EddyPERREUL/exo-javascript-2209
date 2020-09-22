@@ -1,3 +1,5 @@
+"use strict"
+
 //Ecrivez un programme qui affiche tous les nombres de 0 à 100.
 
 //compteur de base à 0

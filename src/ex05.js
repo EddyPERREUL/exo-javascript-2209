@@ -1,3 +1,5 @@
+"use strict"
+
 //Ecrivez une fonction showStars qui prend en paramètre un nombre nbStars et qui affiche sur le terminal comme suit:
 
 const showStars = (nbStars) => {

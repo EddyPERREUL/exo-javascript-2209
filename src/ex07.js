@@ -1,3 +1,5 @@
+"use strict"
+
 //En partant de l'exercice 06 ecrivez une fonction calc qui prend 3 paramètres: 1 string qui correspondra à l'opérateur arithmétique et 2 nombres sur lesquels on appliquera l'opérateur. La fonction calc devra utiliser les fonctions définies dans l'exercice précédent.
 
 //la fonction doit additioner

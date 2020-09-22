@@ -1,3 +1,5 @@
+"use strict"
+
 //Ecrivez un programme dont l'ouput est un sapin de 7 * 
 
 //compteur d'étoile de base *

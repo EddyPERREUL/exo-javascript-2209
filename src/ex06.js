@@ -1,3 +1,5 @@
+"use strict"
+
 //Ecrivez 4 fonctions add, sub, mul, div qui prennent 2 nombres en paramètres et qui retournent le resultat de l'operation attendue.
 
 //la fonction doit additioner
